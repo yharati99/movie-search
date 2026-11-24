@@ -16,7 +16,7 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("Batman");
   const [watchlist, setWatchlist] = useState([]);
 
-  const API_KEY = "97d2a98b";
+  const API_KEY = "Placeholder for API";
 
 
   const fetchMovies = async (query) => {
