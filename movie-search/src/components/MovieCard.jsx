@@ -17,15 +17,18 @@ export default function MovieCard({ movie, addToWatchlist }) {
                 {/* TODO 17:
                     Render movie. Title in an h3
                 */}
+                <h3>{movie.Title}</h3>
 
                 {/* TODO 18:
                     Render the year, type, and any other info you want to show in a p tag.
                     - example idea: 2005 – movie – rating – etc..
                 */}
+                <p>{movie.Year} - {movie.Type}</p>
 
                 {/* TODO 19:
                     Add an "Add to Watchlist" button. When clicked, it should call addToWatchlist(movie). 
                 */}
+                <button type="button" onClick={() => addToWatchlist(movie)}>Add to Watchlist</button>
             </div>
         </article>
     );

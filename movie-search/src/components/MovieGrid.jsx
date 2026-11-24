@@ -12,6 +12,9 @@ export default function MovieGrid({ movies, addToWatchlist }) {
                 - you can use map use key={movie.imdbID} and pass movie as a prop
                 - you can also pass addToWatchlist={addToWatchlist} 
             */}
+            {movies.map((movie) => (
+                <MovieCard key={movie.imdbID} movie={movie} addToWatchlist={addToWatchlist} />
+            ))}
         </div>
     );
 } 

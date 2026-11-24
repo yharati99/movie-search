@@ -10,9 +10,9 @@ import "./App.css";
 // TODO 2: 
 // Mount the React app using createRoot syntax. 
 
-// Example: 
-// ReactDOM.createRoot(document.getElementById("root")).render( 
-//   <React.StrictMode> 
-//     <App /> 
-//   </React.StrictMode> 
-// );
+
+ReactDOM.createRoot(document.getElementById("root")).render( 
+   <React.StrictMode> 
+     <App /> 
+   </React.StrictMode> 
+);
